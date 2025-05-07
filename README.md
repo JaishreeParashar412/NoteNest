@@ -1,86 +1,78 @@
 # NoteNest
-📝 NoteNest
-👥 Team Members
-Jaishree Parashar (Roll: 2401560003)
+# 📝 NoteNest
 
-Shalu (Roll: 2401560032)
+*NoteNest* is a web-based educational platform that provides students with easy access to a structured repository of academic notes. It allows users to search, upload, and organize study materials by subject, topic, and difficulty level — promoting collaborative learning and academic success.
 
-Ayush (Roll: 2401560031)
+---
 
-Kanishak Choudhary (Roll: 2401560071)
+## 👥 Team Members
 
-📄 Project Description
-NoteNest is a web-based educational platform that provides students with easy access to a structured repository of academic notes. It allows users to search, upload, and organize study materials by subject, topic, and difficulty level, promoting collaborative learning and academic success.
+- *Jaishree Parashar* (Roll: 2401560003)  
+- *Shalu* (Roll: 2401560032)  
+- *Ayush* (Roll: 2401560031)  
+- *Kanishak Choudhary* (Roll: 2401560071)
+
+---
+
+
+
+## 📄 Project Description
 
 The platform features:
 
-✍️ User-friendly navigation
+- ✍ User-friendly navigation  
+- 🔍 Powerful search capabilities  
+- 🤝 A collaborative environment where students can contribute their own notes  
 
-🔍 Powerful search capabilities
+---
 
-🤝 A collaborative environment where students can contribute their own notes
+## 🎥 Video Explanation
 
-🎥 Video Explanation
-👉 Watch the Video Explanation
-(https://drive.google.com/file/d/1x17uB4PIrBWQptr-QtbFdB8d-uzNtylT/view?usp=drivesdk)
-Report
- Link of report
- https://drive.google.com/file/d/1x1dnW0qimwYEDWIobFRSF30ewOn-twNK/view?usp=drivesdk
- 
-Technologies Used
+👉 [Watch the Video Explanation](https://drive.google.com/file/d/1x17uB4PIrBWQptr-QtbFdB8d-uzNtylT/view)
 
-🛠️ Technologies Used
-Technology	Purpose
-HTML	Frontend Markup
-CSS	Styling
-JavaScript	Client-side Interactivity
-Bootstrap	Responsive Design
-PHP	Backend Development
-MySQL/PostgreSQL	Database Management
-AJAX	Asynchronous Data Updates
+---
 
-🚀 Steps to Run/Execute the Project
-1️⃣ Download and Install XAMPP
-Visit the official XAMPP website: https://www.apachefriends.org/index.html
+## 🛠 Technologies Used
 
-Download the installer for your OS (Windows, Linux, or macOS)
+| Technology        | Purpose                     |
+|------------------|-----------------------------|
+| HTML             | Frontend Markup             |
+| CSS              | Styling                     |
+| JavaScript       | Client-side Interactivity   |
+| Bootstrap        | Responsive Design           |
+| PHP              | Backend Development         |
+| MySQL/PostgreSQL | Database Management         |
+| AJAX             | Asynchronous Data Updates   |
+---
 
-Install XAMPP and launch the XAMPP Control Panel
+## 🚀 Steps to Run/Execute the Project
 
-Start the Apache and MySQL modules
+### ⿡ Install XAMPP
 
-2️⃣ Clone the Repository
-bash
-Copy
-Edit
+- Download XAMPP from the official site: [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)  
+- Install and launch the XAMPP Control Panel  
+- Start *Apache* and *MySQL* modules
+
+### ⿢ Clone the Repository
+
+``bash
 git clone <repository-url>
 cd NoteNest
-3️⃣ Set Up the Project in XAMPP
-Copy the NoteNest folder into the htdocs directory of XAMPP
-(e.g., C:\xampp\htdocs on Windows)
 
-4️⃣ Set Up the Database
+⿣ Set Up the Project in XAMPP
+Copy the NoteNest folder into the htdocs directory
+(Example: C:\xampp\htdocs\ on Windows)
+
+
+⿤ Set Up the Database
 Open phpMyAdmin: http://localhost/phpmyadmin
 
 Create a new database (e.g., notenest_db)
 
-Import the SQL file provided with the project
+Import the provided .sql file into the newly created database
 
-5️⃣ Configure the Database Connection
-Open the config.php (or equivalent) file
-
-Set your DB credentials (default for XAMPP):
-
-php
-Copy
-Edit
+⿥ Configure the Database Connection
 $db_host = 'localhost';
 $db_user = 'root';
 $db_pass = '';
-$db_name = 'notenest_db';
-6️⃣ Run the Project
-Open your browser and visit:
-👉 http://localhost/NoteNest
-
-
-
+$db_name = 'notenest_db';
